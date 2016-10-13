@@ -1,0 +1,16 @@
+.drills-main-div {
+  /*width: 40%;*/
+  height: 80vh;
+}
+.drills-views-div {
+  background-color: grey;
+  height: 80vh;
+}
+.drillsInstructions-div {
+  /*width: 40%;*/
+  height: 80vh;
+  background-color: orange;
+}
+.drills-main-div iframe {
+  margin: 10px;
+}
