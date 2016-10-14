@@ -1,21 +1,28 @@
 .drills-main-div {
   height: 80vh;
 }
+.drills-main-div iframe {
+  padding-right: 10px;
+}
 .drills-views-div {
   height: 80vh;
 }
-.drillsInstructions-div {
-  height: 80vh;
-}
+
+/*DRILL ANSWERS*/
 .drills-answer-div {
   height: 80vh;
 }
 .drills-answer-div iframe {
   padding-left: 10px;
 }
-.drills-main-div iframe {
-  padding-right: 10px;
+.drills-answer-div a:hover {
+  text-decoration: none;
 }
+.drills-answer-div div {
+  padding-left: 10px;
+}
+
+/*DRILL INSTRUCTIONS*/
 .drillsInstructions-div p {
   padding-left: 10px;
 }
@@ -24,4 +31,16 @@
 }
 .drillsInstructions-div div {
   padding-left: 10px;
+}
+.drillsInstructions-div h3 {
+  padding-left: 10px;
+}
+.drillsInstructions-div h5 {
+  padding-left: 10px;
+}
+.drillsInstructions-div {
+  height: 80vh;
+}
+#instructions-main {
+  list-style-type: none;
 }
