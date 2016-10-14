@@ -1,16 +1,27 @@
 .drills-main-div {
-  /*width: 40%;*/
   height: 80vh;
 }
 .drills-views-div {
-  background-color: grey;
   height: 80vh;
 }
 .drillsInstructions-div {
-  /*width: 40%;*/
   height: 80vh;
-  background-color: orange;
+}
+.drills-answer-div {
+  height: 80vh;
+}
+.drills-answer-div iframe {
+  padding-left: 10px;
 }
 .drills-main-div iframe {
-  margin: 10px;
+  padding-right: 10px;
+}
+.drillsInstructions-div p {
+  padding-left: 10px;
+}
+.drillsInstructions-div a:hover {
+  text-decoration: none;
+}
+.drillsInstructions-div div {
+  padding-left: 10px;
 }

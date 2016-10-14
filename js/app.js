@@ -3,7 +3,7 @@ var app = angular.module('drillsApp',['ui.router'])
 
   .config(function($stateProvider, $urlRouterProvider){
 //injects $stateProvider and $urlRouterProvider so we can change states
-    $urlRouterProvider.otherwise('/review');
+    $urlRouterProvider.otherwise('/review/instructions');
 //main state or view
     $stateProvider
       .state('review', {
@@ -19,6 +19,6 @@ var app = angular.module('drillsApp',['ui.router'])
 
       .state('review.instructions', {
         url: '/instructions',
-        templateUrl: './routes/drillsInstructions.html'
+        templateUrl: 'routes/drillsInstructions.html'
       })
   });
